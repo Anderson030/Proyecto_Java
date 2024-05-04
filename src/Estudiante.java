@@ -1,4 +1,4 @@
-public class Estudiante extends Persona {
+public class Estudiante extends Persona implements Trabajador {
 
     String GradoEstudiante;
 
@@ -25,6 +25,11 @@ public class Estudiante extends Persona {
                 ", GradoEstudiante='" + GradoEstudiante + '\'' +
                 '}';
 
+
+    }
+
+    @Override
+    public void realizarTarea() {
 
     }
 }
