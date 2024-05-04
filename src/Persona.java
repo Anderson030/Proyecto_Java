@@ -20,6 +20,8 @@ public class Persona {
     }
 
     public void setFechaDeNacimiento(String fechaDeNacimiento) {
+
+        
         FechaDeNacimiento = fechaDeNacimiento;
     }
 
@@ -27,8 +29,14 @@ public class Persona {
         return Edad;
     }
 
-    public void setEdad(Integer edad) {
-        Edad = edad;
+    public void setEdad(int edad) {
+        if (edad >= 0) {
+            this.Edad = edad;
+
+        } else {
+            System.out.println("No es válida la edad");
+
+        }
     }
 }
 
