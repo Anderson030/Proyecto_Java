@@ -6,6 +6,10 @@ public class Persona {
     private String FechaDeNacimiento;
     private Integer Edad;
 
+    public Persona(String nombre, String fechaDeNacimiento, int edad) {
+    }
+
+
     // Getters y setters
 
     public String getNombre() {
