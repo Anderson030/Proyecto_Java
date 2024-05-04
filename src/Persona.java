@@ -1,6 +1,6 @@
 import java.time.Year;
 
-public class Persona {
+public class Persona implements Trabajador {
 
     private String Nombre;
     private String FechaDeNacimiento;
@@ -79,6 +79,9 @@ public class Persona {
     }
 
 
-
+    @Override
+    public void realizarTarea() {
+        
     }
+}
 
