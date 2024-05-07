@@ -1,5 +1,11 @@
 public class Figura {
 
+
+    public Figura(String nombre, String color) {
+        this.nombre = nombre;
+        this.color = color;
+    }
+
     private String nombre;
     private String color;
 
