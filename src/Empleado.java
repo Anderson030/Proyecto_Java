@@ -1,4 +1,10 @@
 public class Empleado implements Trabajador{
+
+    public String nombre;
+    public int salario;
+
+
+
     @Override
     public void realizarTarea() {
 
